@@ -1,0 +1,80 @@
+# Number of markers
+1
+
+# Entries for each marker. Format is:
+#
+# Name of pattern file (relative to this file)
+# Marker type (SINGLE)
+# Marker width in millimetres (floating point number)
+# Optional tokens:
+#     FILTER [x]   Enable pose estimate filtering for the preceding marker
+#                  x (optional) specifies the cutoff frequency. Default
+#                  value is AR_FILTER_TRANS_MAT_CUTOFF_FREQ_DEFAULT, which
+#                  at time of writing, equals 5.0.
+# A blank line
+
+panada1.patt
+SINGLE
+80.0
+
+g5.patt
+SINGLE
+80.0
+
+# q是4
+q.patt
+SINGLE
+80.0
+
+ok.patt
+SINGLE
+80.0
+
+p.patt
+SINGLE
+80.0
+
+g5.patt
+SINGLE
+80.0
+
+ad.patt
+SINGLE
+80.0
+
+mk.patt
+SINGLE
+80.0
+
+uw.patt
+SINGLE
+80.0
+
+ferrariSmall.patt
+SINGLE
+80.0
+
+g.patt
+SINGLE
+80.0
+
+hiro.patt
+SINGLE
+80.0
+
+kanji.patt
+SINGLE
+80.0
+
+Ferrari.patt
+SINGLE
+80.0
+
+Hiro1.patt
+SINGLE
+80.0
+
+test.patt
+SINGLE
+80.0
+FILTER
